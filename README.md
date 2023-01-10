@@ -7,7 +7,7 @@ Sports - Zhi Ren\
 MOBA - Jing Xiang\
 FPS - Gabe
 
-**Group Webpage**\
+**Group Homepage Credits**\
 Header - \
 Section 1 (Top Section, Featured Slides) - \
 Section 2 (Mid Section, Upcoming/Trending Slides) - \
