@@ -1,1 +1,65 @@
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <script src="js/navbar.js" defer></script>
+    <title>Welcome to our games website!</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+</head>
+<body>
+    <header id="top">
+        <div id="burger" onclick="enable()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- Nav bar -->
+        <nav class="nav" id="nav">
+            <li>
+                <a href="">First Person Shooters</a>
+            </li>
+            <li>
+                <a href="">Multiplayer Online Battle Arena</a>
+            </li>
+            <li>
+                <a href="">Strategy</a>
+            </li>
+            <li>
+                <a href="">Sports</a>
+            </li>
+        </nav>
+    </header>
+    <div class="mainimage">
+        <img src="images/homeimage.jpg" />
+        <h2>Welcome to our website for games!</h2>
+        <h3>In this website we will be showcasing 4 genre of games as well as 4 games from that genre</h3>
+    </div>
+</body>
+</html>
 
+////CSS CODE////
+img {
+    width:1300px;
+    height:110%
+}
+
+.mainimage {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+h2 h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%
+}
+
+////IF YOU NEED THE BOOTSTRAP ASK IN THE GROUP CHAT////
+
+////JS FOR NAVBAR////
+const enable = (e) => {
+    document.getElementById("burger").classList.toggle("open")
+    document.getElementById("nav").classList.toggle("nav-open")
+}
